@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ContentViewController.h
 //  CustomNavBar
 //
 //  Created by Zyonbao on 15/7/2.
@@ -8,8 +8,6 @@
 
 #import "BasicViewController.h"
 
-@interface ViewController : BasicViewController
-
+@interface ContentViewController : BasicViewController
 
 @end
-

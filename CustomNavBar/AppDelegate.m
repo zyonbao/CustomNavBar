@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  CustomNavBar
 //
-//  Created by baozejian on 15/7/2.
-//  Copyright (c) 2015年 baozejian. All rights reserved.
+//  Created by Zyonbao on 15/7/2.
+//  Copyright (c) 2015年 zyonbao. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "CustomNavigationBar.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    ViewController *home = [[ViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithNavigationBarClass:[CustomNavigationBar class] toolbarClass:nil];
+    nav.viewControllers = @[home];
+    
+    self.window.rootViewController = nav;
+    
+    
     return YES;
 }
 

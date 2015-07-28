@@ -10,10 +10,12 @@
 		E8CA58BC1B457C8600698A6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA58BB1B457C8600698A6B /* main.m */; };
 		E8CA58BF1B457C8600698A6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA58BE1B457C8600698A6B /* AppDelegate.m */; };
 		E8CA58C21B457C8600698A6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA58C11B457C8600698A6B /* ViewController.m */; };
-		E8CA58C51B457C8600698A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CA58C31B457C8600698A6B /* Main.storyboard */; };
 		E8CA58C71B457C8600698A6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CA58C61B457C8600698A6B /* Images.xcassets */; };
 		E8CA58CA1B457C8600698A6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8CA58C81B457C8600698A6B /* LaunchScreen.xib */; };
 		E8CA58D61B457C8600698A6B /* CustomNavBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA58D51B457C8600698A6B /* CustomNavBarTests.m */; };
+		E8CA58E11B457CB400698A6B /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA58E01B457CB400698A6B /* CustomNavigationBar.m */; };
+		E8CA58E41B457D5200698A6B /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA58E31B457D5200698A6B /* BasicViewController.m */; };
+		E8CA58E71B457F0E00698A6B /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA58E61B457F0E00698A6B /* ContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,17 @@
 		E8CA58BE1B457C8600698A6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E8CA58C01B457C8600698A6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E8CA58C11B457C8600698A6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E8CA58C41B457C8600698A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8CA58C61B457C8600698A6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E8CA58C91B457C8600698A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E8CA58CF1B457C8600698A6B /* CustomNavBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CA58D41B457C8600698A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8CA58D51B457C8600698A6B /* CustomNavBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavBarTests.m; sourceTree = "<group>"; };
+		E8CA58DF1B457CB400698A6B /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
+		E8CA58E01B457CB400698A6B /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
+		E8CA58E21B457D5200698A6B /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		E8CA58E31B457D5200698A6B /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		E8CA58E51B457F0E00698A6B /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		E8CA58E61B457F0E00698A6B /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +88,16 @@
 		E8CA58B81B457C8600698A6B /* CustomNavBar */ = {
 			isa = PBXGroup;
 			children = (
+				E8CA58DF1B457CB400698A6B /* CustomNavigationBar.h */,
+				E8CA58E01B457CB400698A6B /* CustomNavigationBar.m */,
+				E8CA58E21B457D5200698A6B /* BasicViewController.h */,
+				E8CA58E31B457D5200698A6B /* BasicViewController.m */,
 				E8CA58BD1B457C8600698A6B /* AppDelegate.h */,
 				E8CA58BE1B457C8600698A6B /* AppDelegate.m */,
 				E8CA58C01B457C8600698A6B /* ViewController.h */,
 				E8CA58C11B457C8600698A6B /* ViewController.m */,
-				E8CA58C31B457C8600698A6B /* Main.storyboard */,
+				E8CA58E51B457F0E00698A6B /* ContentViewController.h */,
+				E8CA58E61B457F0E00698A6B /* ContentViewController.m */,
 				E8CA58C61B457C8600698A6B /* Images.xcassets */,
 				E8CA58C81B457C8600698A6B /* LaunchScreen.xib */,
 				E8CA58B91B457C8600698A6B /* Supporting Files */,
@@ -199,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8CA58C51B457C8600698A6B /* Main.storyboard in Resources */,
 				E8CA58CA1B457C8600698A6B /* LaunchScreen.xib in Resources */,
 				E8CA58C71B457C8600698A6B /* Images.xcassets in Resources */,
 			);
@@ -219,6 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8CA58E41B457D5200698A6B /* BasicViewController.m in Sources */,
+				E8CA58E11B457CB400698A6B /* CustomNavigationBar.m in Sources */,
+				E8CA58E71B457F0E00698A6B /* ContentViewController.m in Sources */,
 				E8CA58C21B457C8600698A6B /* ViewController.m in Sources */,
 				E8CA58BF1B457C8600698A6B /* AppDelegate.m in Sources */,
 				E8CA58BC1B457C8600698A6B /* main.m in Sources */,
@@ -244,14 +258,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E8CA58C31B457C8600698A6B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E8CA58C41B457C8600698A6B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E8CA58C81B457C8600698A6B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -418,6 +424,7 @@
 				E8CA58DB1B457C8600698A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8CA58DC1B457C8600698A6B /* Build configuration list for PBXNativeTarget "CustomNavBarTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				E8CA58DE1B457C8600698A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

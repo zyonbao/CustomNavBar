@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  CustomNavBar
 //
-//  Created by baozejian on 15/7/2.
-//  Copyright (c) 2015年 baozejian. All rights reserved.
+//  Created by Zyonbao on 15/7/2.
+//  Copyright (c) 2015年 zyonbao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
